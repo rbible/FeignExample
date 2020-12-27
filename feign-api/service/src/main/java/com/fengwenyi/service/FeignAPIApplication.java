@@ -25,9 +25,6 @@ public class FeignAPIApplication implements API {
 
     public static void main(String[] args) {
         SpringApplication.run(FeignAPIApplication.class, args);
-
-//        ApplicationContextAware
-//        BeanUtils
     }
 
     Map<String, User> userMap = new HashMap<>();
